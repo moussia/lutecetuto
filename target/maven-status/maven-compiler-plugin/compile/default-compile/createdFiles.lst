@@ -1,0 +1,7 @@
+fr/paris/lutece/plugins/testmoussia/business/UserHome.class
+fr/paris/lutece/plugins/testmoussia/business/User.class
+fr/paris/lutece/plugins/testmoussia/web/UserJspBean.class
+fr/paris/lutece/plugins/testmoussia/business/UserDAO.class
+fr/paris/lutece/plugins/testmoussia/business/IUserDAO.class
+fr/paris/lutece/plugins/testmoussia/web/UserXPage.class
+fr/paris/lutece/plugins/testmoussia/web/AbstractManageUsersJspBean.class

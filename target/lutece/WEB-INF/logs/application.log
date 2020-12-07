@@ -1,0 +1,182 @@
+07/12/20 12:52:22 INFO  [Lutece-MainThread] lutece.event - Lutece logs initialized, using configured property files to define levels and appenders.
+07/12/20 12:52:22 INFO  [Lutece-MainThread] lutece.event - 
+ _      _   _   _____   ___    ___   ___      ____
+| |    | | | | |_   _| | __|  / __| | __|    |__  |
+| |__  | |_| |   | |   | _|  | (__  | _|       / / 
+|____|  \___/    |_|   |___|  \___| |___|     /_/    Starting  version 7.0.0-SNAPSHOT...
+
+07/12/20 12:52:22 INFO  [Lutece-MainThread] lutece.event - Creating connexions pool 'portal'.
+07/12/20 12:52:22 INFO  [Lutece-MainThread] lutece.event - Loading context files ...
+07/12/20 12:52:22 INFO  [Lutece-MainThread] lutece.event - Context file loaded : core_context.xml
+07/12/20 12:52:22 INFO  [Lutece-MainThread] lutece.event - Context file loaded : lucene_context.xml
+07/12/20 12:52:22 INFO  [Lutece-MainThread] lutece.event - Context file loaded : testmoussia_context.xml
+07/12/20 12:52:22 INFO  [Lutece-MainThread] lutece.event - Loading plugins context overrides
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.cache.PathCacheService
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New ImageResourceType registered : fr.paris.lutece.portal.service.page.PageService
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.page.PageService
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New admin user menu item provider registered : modifyPasswordUserMenuItemProvider
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New admin user menu item provider registered : accessibilityModeUserMenuItemProvider
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New admin user menu item provider registered : languageUserMenuItemProvider
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New admin user menu item provider registered : divider1UserMenuItemProvider
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - Spring context loaded in 1218ms
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - Running extra startup services ...
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - Initializing plugins ...
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New XPage application registered : search
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New XPage application registered : map
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New search indexer registered : PageIndexer
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Page Include Service registered : main_menu
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Page Include Service registered : tree_menu
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Page Include Service registered : links
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Page Include Service registered : metas
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Page Include Service registered : statistics
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Page Include Service registered : themes
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Dashboard Component registered : CORE_SYSTEM
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Dashboard Component registered : CORE_USERS
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Dashboard Component registered : CORE_USER
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Dashboard Component registered : CORE_PAGES
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Admin Dashboard Component registered : usersAdminDashboardComponent
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Admin Dashboard Component registered : searchAdminDashboardComponent
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Admin Dashboard Component registered : editorAdminDashboardComponent
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Admin Dashboard Component registered : xslExportAdminDashboardComponent
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Admin Dashboard Component registered : adminHomePageAdminDashboardComponent
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Admin Dashboard Component registered : autoIncludesAdminDashboardComponent
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Admin Dashboard Component registered : featuresAdminDashboardComponent
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New RBAC resource type registered : PAGE
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New RBAC resource type registered : PORTLET_TYPE
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New RBAC resource type registered : INSERT_SERVICE
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New RBAC resource type registered : ADMIN_USER
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New RBAC resource type registered : SEARCH_SERVICE
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New RBAC resource type registered : XSL_EXPORT
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Daemon registered : indexer
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Daemon registered : mailSender
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Daemon registered : anonymizationDaemon
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Daemon registered : accountLifeTimeDaemon
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Daemon registered : threadLauncherDaemon
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - SpringService cache cleared due to a plugin installation change - Plugin : core
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New XPage application registered : user
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event - New Plugin registered : testmoussia *** Warning : current status is 'disabled' ***
+07/12/20 12:52:23 INFO  [Lutece-MainThread] lutece.event -  *** WARNING *** - The plugin 'testmoussia' has no pool defined in db.properties or datastore. Using the default pool 'portal' instead.
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - New Plugin registered : lucene
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Initializing plugins filters ...
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Initialize plugins filters
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Initializing plugins servlets ...
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Initialize plugins servlets
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Content Service 'XPageAppService' is loaded  [ cache disable ] 
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Content Service 'Page Content Service' is loaded  [ cache disable ] 
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - New freemarker autoinclude : commons_site.html from core
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - New Freemarker AutoInclude added : commons_bs4_materialkit.html
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - New Freemarker AutoInclude added : admin/util/calendar/macro_datepicker_materialkit.html
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Scheduling daemon mailSender; first run in 7 seconds
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Scheduling daemon threadLauncherDaemon; first run in 14 seconds
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Scheduling daemon accountLifeTimeDaemon; first run in 21 seconds
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Scheduling daemon indexer; first run in 28 seconds
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Authentication module loaded : LUTECE DEFAULT AUTHENTICATION
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - New ImageResourceType registered : fr.paris.lutece.portal.service.fileimage.FileImageService
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Running post startup services ...
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - Datastore's cache started.
+07/12/20 12:52:24 INFO  [Lutece-MainThread] lutece.event - 
+ _      _   _   _____   ___    ___   ___       ___   ___   ___  __   __  ___   ___ 
+| |    | | | | |_   _| | __|  / __| | __|     / __| | __| | _ \ \ \ / / | __| | _ \
+| |__  | |_| |   | |   | _|  | (__  | _|      \__ \ | _|  |   /  \ V /  | _|  |   /
+|____|  \___/    |_|   |___|  \___| |___|     |___/ |___| |_|_\   \_/   |___| |_|_\  started successfully in 3s !!!
+
+   Front office http(s)://server:port/example/jsp/site/Portal.jsp
+   Back office  http(s)://server:port/example/jsp/admin/AdminMenu.jsp
+
+07/12/20 12:52:31 INFO  [Lutece-Daemons-Coordinator] lutece.event - New Scheduled Thread added to the pool for daemons. Index:1
+07/12/20 12:52:31 INFO  [Lutece-Daemon-mailSender] lutece.event - Daemon mailSender - starts processing.
+07/12/20 12:52:31 INFO  [Lutece-Daemon-mailSender] lutece.event - Daemon mailSender - end of process.
+07/12/20 12:52:36 INFO  [http-nio-8080-exec-3] lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.cache.FullPageCachingService
+07/12/20 12:52:36 INFO  [http-nio-8080-exec-3] lutece.event - LocaleService : default locale set to : fr
+07/12/20 12:52:36 INFO  [http-nio-8080-exec-3] lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.portal.PortalMenuService
+07/12/20 12:52:37 INFO  [http-nio-8080-exec-4] lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.cache.HeadersPageCachingFilter
+07/12/20 12:52:37 INFO  [http-nio-8080-exec-6] lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.cache.HeadersPageCachingFilter
+07/12/20 12:52:37 INFO  [http-nio-8080-exec-7] lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.cache.HeadersPageCachingFilter
+07/12/20 12:52:37 INFO  [http-nio-8080-exec-5] lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.cache.HeadersPageCachingFilter
+07/12/20 12:52:37 INFO  [http-nio-8080-exec-9] lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.cache.HeadersPageCachingFilter
+07/12/20 12:52:37 INFO  [http-nio-8080-exec-8] lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.cache.HeadersPageCachingFilter
+07/12/20 12:52:38 INFO  [Lutece-Daemon-threadLauncherDaemon] lutece.event - Daemon threadLauncherDaemon - starts processing.
+07/12/20 12:52:38 INFO  [Lutece-Daemon-threadLauncherDaemon] lutece.event - Daemon threadLauncherDaemon - end of process.
+07/12/20 12:52:45 INFO  [Lutece-Daemon-accountLifeTimeDaemon] lutece.event - Daemon accountLifeTimeDaemon - starts processing.
+07/12/20 12:52:45 INFO  [Lutece-Daemon-accountLifeTimeDaemon] lutece.event - AccountLifeTimeDaemon - No expired admin user found
+07/12/20 12:52:45 INFO  [Lutece-Daemon-accountLifeTimeDaemon] lutece.event - AccountLifeTimeDaemon - Expired passwords notification deactivated, skipping
+07/12/20 12:52:45 INFO  [Lutece-Daemon-accountLifeTimeDaemon] lutece.event - AccountLifeTimeDaemon - Other alerts deactivated, skipping
+07/12/20 12:52:45 INFO  [Lutece-Daemon-accountLifeTimeDaemon] lutece.event - AccountLifeTimeDaemon - Expired passwords notification deactivated, skipping
+07/12/20 12:52:45 INFO  [Lutece-Daemon-accountLifeTimeDaemon] lutece.event - Daemon accountLifeTimeDaemon - end of process.
+07/12/20 12:52:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 12:52:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 12:57:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 12:57:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 12:58:32 INFO  [http-nio-8080-exec-1] lutece.event - SpringService cache cleared due to a plugin installation change - Plugin : testmoussia
+07/12/20 13:02:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 13:02:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 13:07:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 13:07:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 13:12:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 13:12:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 13:17:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 13:17:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 13:22:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 13:22:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 13:27:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 13:27:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 13:32:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 13:32:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 13:37:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 13:37:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 13:42:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 13:42:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 13:47:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 13:47:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 13:52:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 13:52:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 13:57:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 13:57:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 14:01:29 INFO  [http-nio-8080-exec-3] lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.web.xpages.SiteMapCacheService
+07/12/20 14:02:50 INFO  [http-nio-8080-exec-2] lutece.event - Theme service not available.
+07/12/20 14:02:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 14:02:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 14:07:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 14:07:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 14:12:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 14:12:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 14:13:18 INFO  [http-nio-8080-exec-10] lutece.event - Theme service not available.
+07/12/20 14:13:20 INFO  [http-nio-8080-exec-5] lutece.event - Theme service not available.
+07/12/20 14:17:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 14:17:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 14:22:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 14:22:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 16:32:43 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 16:32:43 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 16:32:43 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 16:32:43 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 16:32:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 16:32:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 16:37:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 16:37:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 16:42:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 16:42:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 16:47:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 16:47:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 16:52:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 16:52:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 16:57:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 16:57:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 17:02:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 17:02:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 17:07:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 17:07:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 17:12:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 17:12:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 17:17:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 17:17:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 17:22:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 17:22:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 17:27:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 17:27:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 17:32:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 17:32:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 17:38:03 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 17:38:03 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.
+07/12/20 17:42:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - starts processing.
+07/12/20 17:42:52 INFO  [Lutece-Daemon-indexer] lutece.event - Daemon indexer - end of process.

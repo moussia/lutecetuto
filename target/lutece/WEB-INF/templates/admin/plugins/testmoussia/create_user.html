@@ -1,0 +1,19 @@
+<#include "manageusers_tabs.html" />
+<@tabs2 tab="user" />
+<@box>
+	<@boxHeader title='#i18n{testmoussia.create_user.title}' />
+	<@boxBody>
+    <@tform name='create_user' action='jsp/admin/plugins/testmoussia/ManageUsers.jsp'>
+
+        <@messages errors=errors />
+        <input type="hidden" id="id" name="id"/>
+        <input type="hidden" value="${token}" name="token" />
+
+		<@formGroup labelFor='nom' labelKey='#i18n{testmoussia.modify_user.labelNom}' mandatory=true>
+          	<@input type='text' id='nom' name='nom'  maxlength=50 value='${user.nom!\'\'}' tabIndex='0' />
+		</@formGroup>
+				
+		<@actionButtons button1Name="action_createUser" button2Name="view_manageUser"/>
+    </@tform>
+	</@boxBody>
+</@box>

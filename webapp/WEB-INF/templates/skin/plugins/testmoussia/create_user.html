@@ -1,0 +1,24 @@
+<#include "manageusers_tabs.html" />
+<@tabs2 tab="user" />
+
+<@row>
+	<@columns>
+		<@tform class='form-horizontal' action='jsp/site/Portal.jsp?page=user'>
+			<fieldset>
+				<legend>#i18n{testmoussia.create_user.title}</legend>
+				<@messages errors=errors />
+				<input type="hidden" id="id" name="id"/>
+				<input type="hidden" value="${token}" name="token" />
+
+          		<@formGroup labelFor='nom' labelKey='#i18n{testmoussia.create_user.labelNom}' helpKey='#i18n{testmoussia.create_user.labelNom.help}' mandatory=true>
+					<@input type="text" id="nom" name="nom" value="${user.nom!''}"  maxlength=50 tabIndex="1" />
+				</@formGroup>
+        		<@formGroup>
+          			<@button name='action_createUser' type='submit' tabIndex='1' title='#i18n{portal.util.labelCreate}' buttonIcon='plus' />
+					<@button name='view_manageUsers' type='submit' title='#i18n{portal.util.labelCancel}' buttonIcon='close' color='btn-secondary' />
+				</@formGroup>
+        </fieldset>
+    </@tform>
+	</@columns>
+</@row>
+

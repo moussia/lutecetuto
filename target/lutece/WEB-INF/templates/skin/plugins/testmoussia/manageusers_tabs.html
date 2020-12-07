@@ -1,0 +1,9 @@
+<#macro tabs2 tab >
+<@tabs>
+	<@tabList>
+			<li <#if tab="user">class="active"</#if>>
+				<a href="jsp/site/Portal.jsp?page=user">#i18n{testmoussia.manage_users.pageTitle}</a>
+			</li>
+	</@tabList>
+</@tabs>
+</#macro>

@@ -1,0 +1,7 @@
+/home/moussia/eclipse-workspace/plugin-testmoussia/src/java/fr/paris/lutece/plugins/testmoussia/business/UserHome.java
+/home/moussia/eclipse-workspace/plugin-testmoussia/src/java/fr/paris/lutece/plugins/testmoussia/business/UserDAO.java
+/home/moussia/eclipse-workspace/plugin-testmoussia/src/java/fr/paris/lutece/plugins/testmoussia/business/IUserDAO.java
+/home/moussia/eclipse-workspace/plugin-testmoussia/src/java/fr/paris/lutece/plugins/testmoussia/business/User.java
+/home/moussia/eclipse-workspace/plugin-testmoussia/src/java/fr/paris/lutece/plugins/testmoussia/web/UserJspBean.java
+/home/moussia/eclipse-workspace/plugin-testmoussia/src/java/fr/paris/lutece/plugins/testmoussia/web/AbstractManageUsersJspBean.java
+/home/moussia/eclipse-workspace/plugin-testmoussia/src/java/fr/paris/lutece/plugins/testmoussia/web/UserXPage.java
